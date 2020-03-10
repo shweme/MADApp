@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA1688E24172F0500BD327D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1688D24172F0500BD327D /* AppDelegate.swift */; };
+		ADA1689024172F0500BD327D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1688F24172F0500BD327D /* SceneDelegate.swift */; };
+		ADA1689224172F0500BD327D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA1689124172F0500BD327D /* ContentView.swift */; };
+		ADA1689424172F0700BD327D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA1689324172F0700BD327D /* Assets.xcassets */; };
+		ADA1689724172F0700BD327D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA1689624172F0700BD327D /* Preview Assets.xcassets */; };
+		ADA1689A24172F0700BD327D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA1689824172F0700BD327D /* LaunchScreen.storyboard */; };
+		ADA168A524172F0700BD327D /* Reference_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA168A424172F0700BD327D /* Reference_ViewerTests.swift */; };
+		ADA168B024172F0700BD327D /* Reference_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA168AF24172F0700BD327D /* Reference_ViewerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADA168A124172F0700BD327D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA1688224172F0500BD327D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA1688924172F0500BD327D;
+			remoteInfo = "Reference Viewer";
+		};
+		ADA168AC24172F0700BD327D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA1688224172F0500BD327D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADA1688924172F0500BD327D;
+			remoteInfo = "Reference Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADA1688A24172F0500BD327D /* Reference Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reference Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA1688D24172F0500BD327D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA1688F24172F0500BD327D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADA1689124172F0500BD327D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADA1689324172F0700BD327D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA1689624172F0700BD327D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADA1689924172F0700BD327D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA1689B24172F0700BD327D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA168A024172F0700BD327D /* Reference ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reference ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA168A424172F0700BD327D /* Reference_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference_ViewerTests.swift; sourceTree = "<group>"; };
+		ADA168A624172F0700BD327D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA168AB24172F0700BD327D /* Reference ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reference ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA168AF24172F0700BD327D /* Reference_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference_ViewerUITests.swift; sourceTree = "<group>"; };
+		ADA168B124172F0700BD327D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA1688724172F0500BD327D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA1689D24172F0700BD327D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA168A824172F0700BD327D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA1688124172F0500BD327D = {
+			isa = PBXGroup;
+			children = (
+				ADA1688C24172F0500BD327D /* Reference Viewer */,
+				ADA168A324172F0700BD327D /* Reference ViewerTests */,
+				ADA168AE24172F0700BD327D /* Reference ViewerUITests */,
+				ADA1688B24172F0500BD327D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA1688B24172F0500BD327D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1688A24172F0500BD327D /* Reference Viewer.app */,
+				ADA168A024172F0700BD327D /* Reference ViewerTests.xctest */,
+				ADA168AB24172F0700BD327D /* Reference ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA1688C24172F0500BD327D /* Reference Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1688D24172F0500BD327D /* AppDelegate.swift */,
+				ADA1688F24172F0500BD327D /* SceneDelegate.swift */,
+				ADA1689124172F0500BD327D /* ContentView.swift */,
+				ADA1689324172F0700BD327D /* Assets.xcassets */,
+				ADA1689824172F0700BD327D /* LaunchScreen.storyboard */,
+				ADA1689B24172F0700BD327D /* Info.plist */,
+				ADA1689524172F0700BD327D /* Preview Content */,
+			);
+			path = "Reference Viewer";
+			sourceTree = "<group>";
+		};
+		ADA1689524172F0700BD327D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADA1689624172F0700BD327D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADA168A324172F0700BD327D /* Reference ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA168A424172F0700BD327D /* Reference_ViewerTests.swift */,
+				ADA168A624172F0700BD327D /* Info.plist */,
+			);
+			path = "Reference ViewerTests";
+			sourceTree = "<group>";
+		};
+		ADA168AE24172F0700BD327D /* Reference ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADA168AF24172F0700BD327D /* Reference_ViewerUITests.swift */,
+				ADA168B124172F0700BD327D /* Info.plist */,
+			);
+			path = "Reference ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA1688924172F0500BD327D /* Reference Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA168B424172F0700BD327D /* Build configuration list for PBXNativeTarget "Reference Viewer" */;
+			buildPhases = (
+				ADA1688624172F0500BD327D /* Sources */,
+				ADA1688724172F0500BD327D /* Frameworks */,
+				ADA1688824172F0500BD327D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reference Viewer";
+			productName = "Reference Viewer";
+			productReference = ADA1688A24172F0500BD327D /* Reference Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADA1689F24172F0700BD327D /* Reference ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA168B724172F0700BD327D /* Build configuration list for PBXNativeTarget "Reference ViewerTests" */;
+			buildPhases = (
+				ADA1689C24172F0700BD327D /* Sources */,
+				ADA1689D24172F0700BD327D /* Frameworks */,
+				ADA1689E24172F0700BD327D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA168A224172F0700BD327D /* PBXTargetDependency */,
+			);
+			name = "Reference ViewerTests";
+			productName = "Reference ViewerTests";
+			productReference = ADA168A024172F0700BD327D /* Reference ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADA168AA24172F0700BD327D /* Reference ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA168BA24172F0700BD327D /* Build configuration list for PBXNativeTarget "Reference ViewerUITests" */;
+			buildPhases = (
+				ADA168A724172F0700BD327D /* Sources */,
+				ADA168A824172F0700BD327D /* Frameworks */,
+				ADA168A924172F0700BD327D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA168AD24172F0700BD327D /* PBXTargetDependency */,
+			);
+			name = "Reference ViewerUITests";
+			productName = "Reference ViewerUITests";
+			productReference = ADA168AB24172F0700BD327D /* Reference ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA1688224172F0500BD327D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shweta Mehta";
+				TargetAttributes = {
+					ADA1688924172F0500BD327D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ADA1689F24172F0700BD327D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADA1688924172F0500BD327D;
+					};
+					ADA168AA24172F0700BD327D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADA1688924172F0500BD327D;
+					};
+				};
+			};
+			buildConfigurationList = ADA1688524172F0500BD327D /* Build configuration list for PBXProject "Reference Viewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA1688124172F0500BD327D;
+			productRefGroup = ADA1688B24172F0500BD327D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA1688924172F0500BD327D /* Reference Viewer */,
+				ADA1689F24172F0700BD327D /* Reference ViewerTests */,
+				ADA168AA24172F0700BD327D /* Reference ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA1688824172F0500BD327D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA1689A24172F0700BD327D /* LaunchScreen.storyboard in Resources */,
+				ADA1689724172F0700BD327D /* Preview Assets.xcassets in Resources */,
+				ADA1689424172F0700BD327D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA1689E24172F0700BD327D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA168A924172F0700BD327D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA1688624172F0500BD327D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA1688E24172F0500BD327D /* AppDelegate.swift in Sources */,
+				ADA1689024172F0500BD327D /* SceneDelegate.swift in Sources */,
+				ADA1689224172F0500BD327D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA1689C24172F0700BD327D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA168A524172F0700BD327D /* Reference_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA168A724172F0700BD327D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA168B024172F0700BD327D /* Reference_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA168A224172F0700BD327D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA1688924172F0500BD327D /* Reference Viewer */;
+			targetProxy = ADA168A124172F0700BD327D /* PBXContainerItemProxy */;
+		};
+		ADA168AD24172F0700BD327D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADA1688924172F0500BD327D /* Reference Viewer */;
+			targetProxy = ADA168AC24172F0700BD327D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADA1689824172F0700BD327D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA1689924172F0700BD327D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA168B224172F0700BD327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA168B324172F0700BD327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA168B524172F0700BD327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reference Viewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Reference Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3701ICT.Reference-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADA168B624172F0700BD327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Reference Viewer/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Reference Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3701ICT.Reference-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADA168B824172F0700BD327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reference ViewerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3701ICT.Reference-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reference Viewer.app/Reference Viewer";
+			};
+			name = Debug;
+		};
+		ADA168B924172F0700BD327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reference ViewerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3701ICT.Reference-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reference Viewer.app/Reference Viewer";
+			};
+			name = Release;
+		};
+		ADA168BB24172F0700BD327D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reference ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3701ICT.Reference-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reference Viewer";
+			};
+			name = Debug;
+		};
+		ADA168BC24172F0700BD327D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reference ViewerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-3701ICT.Reference-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reference Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA1688524172F0500BD327D /* Build configuration list for PBXProject "Reference Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA168B224172F0700BD327D /* Debug */,
+				ADA168B324172F0700BD327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA168B424172F0700BD327D /* Build configuration list for PBXNativeTarget "Reference Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA168B524172F0700BD327D /* Debug */,
+				ADA168B624172F0700BD327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA168B724172F0700BD327D /* Build configuration list for PBXNativeTarget "Reference ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA168B824172F0700BD327D /* Debug */,
+				ADA168B924172F0700BD327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA168BA24172F0700BD327D /* Build configuration list for PBXNativeTarget "Reference ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA168BB24172F0700BD327D /* Debug */,
+				ADA168BC24172F0700BD327D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA1688224172F0500BD327D /* Project object */;
+}
